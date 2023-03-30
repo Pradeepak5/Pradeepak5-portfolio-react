@@ -16,7 +16,7 @@ export function About() {
 function AboutContent(){
   return (
     <div>
-      About
+      About - under development
     </div>
   )
 }

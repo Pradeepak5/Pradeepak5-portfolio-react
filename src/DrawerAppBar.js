@@ -20,10 +20,8 @@ export function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
-  const routeURl = ['/', '/about', '/skills', '/experience', '/contact'];
-
+  const routeURl = ['/', '/about', '/skills', '/experience','/projects', '/contact'];
   const navigate = useNavigate();
-
   const handleSubmit = (index) => {
     navigate(`${routeURl[index]}`);
   }

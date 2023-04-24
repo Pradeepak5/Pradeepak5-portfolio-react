@@ -74,6 +74,15 @@
   width: 100%;
 }
 
+.skills-content{
+  width: 50%;
+}
+
+.skills-content .right{
+  margin-left: 20%;
+}
+
+
 .text-shpere{
   position: relative;
   top: 0;
@@ -118,6 +127,8 @@
   align-items: center;
   gap: 15px;
   flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 10%;
 }
 
 .skill-container .box{
@@ -302,6 +313,59 @@
   margin-left: 5px;
 }
 
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+  width: 550px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background-color: lightgray;
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #4fc3dc;
+}
+.skills .skills-content .right .fe::before{
+  width: 90%;
+}
+.skills .skills-content .right .git::before{
+  width: 85%;
+}
+.skills .skills-content .right .java::before{
+  width: 70%;
+}
+.skills .skills-content .right .react::before{
+  width: 90%;
+}
+.skills .skills-content .right .css::before{
+  width: 90%;
+}
+.skills .skills-content .right .db::before{
+  width: 80%;
+}
+.skills .skills-content .right .node::before{
+  width: 80%;
+}
+.skills .skills-content .right .deploy::before{
+  width: 95%;
+}
+
 /* Contact styling */
 
 
@@ -437,6 +501,7 @@
 }
 
 .copyright{
+  color:#4fc3dc;
   font-size: 1em;
   margin-left: 50%;
 }
@@ -614,6 +679,119 @@ header h2{
   margin-left: 20%;
 }
 
+/* About section */
+
+
+.about .about-content,.skills .skills-content, .contact .contact-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .about-content .left{
+  width: 45%;
+}
+.about .about-content .left img{
+  margin-left: 10%;
+  height: 500px;
+  width: 600px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.about .about-content .right{
+  width: 55%;
+  line-height: 35px;
+}
+
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.7em;
+  color: #4fc3dc;
+}
+.about .about-content .right .text span{
+  color: #4fc3dc;
+  font-size: 1em;
+}
+.about .about-content .right p{
+  text-align:justify;
+  font-size: 1.3em;
+}
+.about .about-content .right button{
+  display:inline-block;
+  background-color: #4fc3dc;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #4fc3dc;
+  transition: all 0.3s ease;
+}
+.about .about-content .right button:hover{
+  color: #4fc3dc;
+  background: none;
+}
+
+
+/* Project Section */
+
+.teams{
+  color: #fff;
+  background: none;
+}
+.teams .tittle::before{
+  background: #fff;
+}
+.teams .tittle::after{
+  background: #111;
+}
+.teams .carousel .card{
+  background: #222;
+  border-radius: 7px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+  background: #4fc3dc;
+}
+.teams .carousel .card:hover .box{
+  transform: scale(1.1);
+}
+.teams .carousel .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.teams .carousel .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.teams .carousel .card img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #4fc3dc;
+  transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+  border-color: white;
+}
+.teams{
+  width: 100%;
+  margin-left: 90%;
+}
+.card{
+  margin-bottom: 10px;
+  width: 600px;
+}
 
 /* Mobile View */
 
@@ -679,7 +857,7 @@ header h2{
   }
 
   #skill-app{
-    min-height: 150vh;
+    min-height: 215vh;
   }
 
   .container{
@@ -698,6 +876,14 @@ header h2{
     gap: 10px;
     width: 100%;
   }
+  .skills .skills-content .right .bars{
+    margin-bottom: 15px;
+    width: 250px;
+  }
+
+  .skills .skills-content .right{
+    margin-top: 30px;
+  }
 
   .skills-body{
     display: flex;
@@ -706,6 +892,7 @@ header h2{
     align-items: center;
     overflow: hidden;
   }
+
 
   .bubbles span{
     position: relative;
@@ -779,6 +966,7 @@ header h2{
     max-width: 100%;
   }
   .copyright{
+    color:#4fc3dc;
     font-size: .8em;
     margin-left: 2%;
   }
@@ -850,5 +1038,46 @@ header h2{
   .HomeContent{
     margin-left: 7%;
   }
-}
 
+  /* about mobile view */
+  .about-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .about .about-content .left img{
+    margin-left: -50%;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+  }
+  .about .about-content .right .text span{
+    color: #4fc3dc;
+    font-size: 15px;
+  }
+  .about .about-content .right p{
+    text-align:justify;
+    font-size: 13px;
+  }
+  #App-about{
+    min-height: 150vh;
+  }
+  .about .about-content .right{
+    width: 90%;
+    line-height: 35px;
+  }
+
+  .teams{
+    width: 100%;
+    margin-left: 40%;
+  }
+
+  .card{
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  #App-project{
+    height: 130vh;
+  }
+
+}

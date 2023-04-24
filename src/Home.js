@@ -22,7 +22,7 @@ function HomeContent(){
   const el = useRef(null);
   useEffect(()=>{
     const typed = new Typed(el.current,{
-      strings:["Developer","Designer","Blog Writer"],
+      strings:["Designer","Developer","Designer","Blog Writer"],
       startDelay:300,
       backDelay:150,
       smartBackspace:true,

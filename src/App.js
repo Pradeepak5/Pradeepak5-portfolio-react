@@ -6,6 +6,7 @@ import { About } from './About';
 import { Skills } from './Skills';
 import { Experience } from './Experience';
 import { Contact } from './Contact';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/about' element={<About />} />
       <Route path='/skills' element={<Skills />} />
       <Route path='/experience' element={<Experience />} />
+      <Route path='/projects' element={<Projects />} />
       <Route path='/contact' element={<Contact />} />
     </Routes>
   );
@@ -21,5 +23,5 @@ function App() {
 
 export default App;
 export const drawerWidth = 240;
-export const navItems = ['Home', 'About', 'Skills', 'PathWay', 'Contact'];
+export const navItems = ['Home', 'About', 'Skills', 'PathWay','Projects', 'Contact'];
 

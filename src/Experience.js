@@ -25,15 +25,28 @@ function ExperienceContent(){
           </header>
           <div className='contents'>
           <div className='box'>
-              <h4>May,2022 - Present</h4>
+              <h4>May,2023 - Present</h4>
+              <h3>Software Engineer - App developement</h3>
+              <p>As a senior full-stack developer with expertise in MERN
+                technologies, I have successfully led cross-functional teams
+                and independently executed projects, ensuring timely
+                delivery while aligning with product requirements.
+                Additionally, I collaborated seamlessly with cloud network
+                teams to optimize production processes.
+              </p>
+            </div>
+          <div className='box'>
+              <h4>May,2022 - April,2023</h4>
               <h3>Associate Engineer - Product developement</h3>
-              <p>I have played a front-end role with reactjs-framework. worked in various javascript libraries, as I also
-                had look on nodejs. learned more about work collabration using git, github.
+              <p>Proficient in front-end development with ReactJS and
+                  well-versed in JavaScript libraries including jQuery, React,
+                  and Redux. Skilled in collaborative workflows using Git and
+                  GitHub, with a growing understanding of NodeJS.
               </p>
             </div>
             <div className='box'>
               <h4>Jan,2022 - Apr,2022</h4>
-              <h3>Full Stack Developer - Internship</h3>
+              <h3>Full Stack Developer - Trainee</h3>
               <p>learned  python full-stack along with selenium testing.
                 worked in movie ticket booking application.
               </p>

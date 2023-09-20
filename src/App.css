@@ -30,7 +30,7 @@
 .container{
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   overflow: hidden;
 }
 
@@ -857,7 +857,7 @@ header h2{
   }
 
   #skill-app{
-    min-height: 215vh;
+    min-height: 225vh;
   }
 
   .container{

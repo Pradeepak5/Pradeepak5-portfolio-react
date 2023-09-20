@@ -37,7 +37,7 @@ function SkillContent(){
             <div className='shadow'>
             </div> 
             <div className='content'>
-              <div className='percent' data-text="codesolving" style={{"--num":'70'}}>
+              <div className='percent' data-text="codesolving" style={{"--num":'80'}}>
                 <div className='dot'></div>
                 <svg>
                   <circle cx="70" cy="70" r="70"></circle>
@@ -45,7 +45,7 @@ function SkillContent(){
                 </svg>
               </div>
               <div className='number'>
-                <h2>70<span>%</span></h2>
+                <h2>80<span>%</span></h2>
               </div>
             </div> 
         </div>  
@@ -74,7 +74,7 @@ function SkillContent(){
 
             </div> 
             <div className='content'>
-              <div className='percent' data-text="backend" style={{"--num":'85'}}>
+              <div className='percent' data-text="backend" style={{"--num":'90'}}>
                 <div className='dot'></div>
                 <svg>
                   <circle cx="70" cy="70" r="70"></circle>
@@ -82,7 +82,7 @@ function SkillContent(){
                 </svg>
               </div>
               <div className='number'>
-                <h2>85<span>%</span></h2>
+                <h2>90<span>%</span></h2>
               </div>
             </div> 
         </div>
@@ -99,7 +99,7 @@ function SkillContent(){
                 </svg>
               </div>
               <div className='number'>
-                <h2>80<span>%</span></h2>
+                <h2>85<span>%</span></h2>
               </div>
             </div> 
         </div>
@@ -110,7 +110,7 @@ function SkillContent(){
       <div className="column right">
                         <div className="bars">
                             <div className="info">
-                                <span>Html, Css, JavaScript</span>
+                                <span>Html, Css</span>
                                 <span>90%</span>
                                 
                             </div>
@@ -118,15 +118,23 @@ function SkillContent(){
                         </div>
                         <div className="bars">
                             <div className="info">
-                                <span>Java</span>
-                                <span>70%</span>
+                                <span>JavaScript, Java</span>
+                                <span>90%</span>
                                 
                             </div>
-                            <div className="line java"></div>
+                            <div className="line fe"></div>
                         </div>
                         <div className="bars">
                             <div className="info">
-                                <span>ReactJs, Redux</span>
+                                <span>Azure Devops, Cosmos DB, Azure repository</span>
+                                <span>80%</span>
+                                
+                            </div>
+                            <div className="line db"></div>
+                        </div>
+                        <div className="bars">
+                            <div className="info">
+                                <span>ReactJs, Redux, NextJs</span>
                                 <span>90%</span>
                                 
                             </div>
@@ -151,7 +159,7 @@ function SkillContent(){
                         <div className="bars">
                             <div className="info">
                                 <span>NodeJs</span>
-                                <span>80%</span>
+                                <span>90%</span>
                                 
                             </div>
                             <div className="line node"></div>
@@ -167,7 +175,7 @@ function SkillContent(){
                         <div className="bars">
                             <div className="info">
                                 <span>Git, GitHub</span>
-                                <span>85%</span>
+                                <span>95%</span>
                                 
                             </div>
                             <div className="line git"></div>
